@@ -1,0 +1,11 @@
+import {createStore} from "redux";
+
+let reducer=(state,active)=>{
+    switch(){
+
+    }
+}
+
+let store = createStore(reducer)
+
+export default store

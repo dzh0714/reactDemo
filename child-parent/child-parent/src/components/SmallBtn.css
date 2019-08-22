@@ -1,0 +1,10 @@
+.smallTag {
+    width: 25%;
+    height: 100px;
+    background: orange;
+    border: 1px solid #eee;
+    line-height: 100px;
+    text-align: center;
+    font-size: 20px;
+    color: white
+}

@@ -1,0 +1,48 @@
+[{
+        "id": 1,
+        "name": "阿里巴巴概念",
+        "serail": "H78910K",
+        "flag": false,
+        "btn1": "添加",
+        "btn2": "已在该组"
+    },
+    {
+        "id": 2,
+        "name": "阿里建康",
+        "serail": "H789JHT",
+        "flag": false,
+        "btn1": "添加",
+        "btn2": "已在该组"
+    },
+    {
+        "id": 3,
+        "name": "阿里影业",
+        "serail": "ALY",
+        "flag": false,
+        "btn1": "添加",
+        "btn2": "已在该组"
+    },
+    {
+        "id": 4,
+        "name": "阿里科",
+        "serail": "ALk",
+        "flag": false,
+        "btn1": "添加",
+        "btn2": "已在该组"
+    },
+    {
+        "id": 5,
+        "name": "阿里特",
+        "serail": "ALE",
+        "flag": false,
+        "btn1": "添加",
+        "btn2": "已在该组"
+    }, {
+        "id": 6,
+        "name": "阿里云制药",
+        "serail": "ARNA",
+        "flag": false,
+        "btn1": "添加",
+        "btn2": "已在该组"
+    }
+]

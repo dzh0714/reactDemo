@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+html,body,#root,.App,.wrap{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.wrap{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.wrap .header{
+  width: 100%;
+  height: 50px;
+}
+.wrap .list{
+  width: 100%;
+  flex: 1;
+}
+.wrap .list .List{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.shopname {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.shopname p{
+  height: 50px;
+  border-bottom:solid #ccc 1px;
+  line-height: 50px;
+}
+.goods{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom:solid #ccc 1px;
+}
+.wrap .footer{
+  width: 100%;
+  height: 50px;
+  background: #eee;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.wrap .footer li{
+  display: flex;
+  margin-left: 10px;
+}
+.wrap .footer li span{
+  font-size: 18px;
+  color:orange;
+}
+.wrap .footer button{
+  width: 15%;
+  height: 100%;
+  border:none;
+  outline: none;
+  background: orange;
+  color:#fff;
+}
+.reducr{
+  display: flex;
+}

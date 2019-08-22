@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html,
+body,
+#root,
+.App {
+    width: 100%;
+    height: 100%;
+}
+
+.App {
+    display: flex;
+    width: 600px;
+    height: 350px;
+    border: 1px solid #ccc;
+    background: rgb(228, 228, 228)
+}
+
+.left {
+    width: 350px;
+    height: 100%;
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li {
+    width: 27%;
+    height: 80px;
+    flex-shrink: 0;
+    background: yellow;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 80px;
+    box-shadow: 4px 4px rgb(182, 182, 182)
+}

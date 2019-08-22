@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.App {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Bill {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Add {
+    flex: 1;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.Look {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer a {
+    width: 50%;
+    height: 50px;
+    border: 1px solid #ccc;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+}

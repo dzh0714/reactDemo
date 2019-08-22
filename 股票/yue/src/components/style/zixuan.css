@@ -1,0 +1,49 @@
+section {
+    flex: 1;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    background: rgb(233, 66, 0);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+    background: rgb(250, 250, 250);
+    display: flex;
+    justify-content: space-around;
+    line-height: 40px;
+    color: rgb(84, 84, 84);
+}
+
+.btn {
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    top: 200px;
+    left: 120px;
+}
+
+.btn button {
+    width: 100px;
+    height: 100px;
+    margin-left: 25px;
+    border: 1px solid red;
+    font-size: 60px;
+    color: red;
+    background: none;
+}
+
+.btn p {
+    margin-top: 10px;
+    margin-left: 20px;
+}

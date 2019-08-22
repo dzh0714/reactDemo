@@ -1,0 +1,31 @@
+section {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.billwrap div {
+    margin-top: 10px;
+}
+
+textarea {
+    border: 1px solid #345344
+}
+
+input {
+    margin-left: 10px;
+    border: 1px solid #567867
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btns button {
+    width: 150px;
+    height: 30px;
+    background: pink;
+    border: 1px solid #eee;
+    outline: none;
+}
